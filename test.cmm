@@ -1,0 +1,50 @@
+
+int test(int x, int d, int y){
+	return x;
+}
+
+bool test1(){
+	int x;
+	x = 2;
+	if( x == 1){
+		return true;
+	}
+	if( x == 2){
+		return false;
+	}
+	return true;
+}
+
+void test2(){
+	bool temp;
+	temp = true;
+	if(temp == true){
+		temp = false;
+	}
+	
+}
+void main2() {
+    cout << "Hello world!";
+    cout << "\n";
+}
+
+int main(){
+ int x;
+ int d;
+ bool result;
+ if(true){
+ 	test(5, x, 3);
+ 	result = test1();
+ 	if(result == false){
+ 		test2();
+ 	}
+ 	else{
+ 		d = 0;
+ 		d++;
+ 		d--;
+ 	}
+ }else{
+
+ }
+}
+
